@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 100%, 97%);
+}
+
+.steps {
+    background-image: url('./assets/images/bg-sidebar-mobile.svg');
+    display: flex;
+    justify-content: center;
+    height: 172px;
+    gap: 10px;
+}
+
+.step {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    background-color: whitesmoke;
+}
+
+.tab {
+    width: 80%;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    display: none;
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tab h1 {
+    font-weight: bold;
+    color: hsl(213, 96%, 18%)
+}
+
+.tab p {
+    font-size: 18px;
+    color: hsl(231, 11%, 63%);
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: hsl(213, 96%, 18%);
+}
+
+.form1 input {
+    height: 3em;
+    margin-bottom: 15px;
+    border: 1px solid hsl(229, 24%, 87%);
+}
+
+.form1 input::placeholder {
+    padding: 5px;
+    font-weight: 600;
+    color: hsl(231, 11%, 63%);
+    font-size: larger;
+}
+
+#next {
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    background-color: hsl(213, 96%, 18%)
+}
