@@ -79,6 +79,14 @@ body {
     font-size: larger;
 }
 
+#prev {
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: hsl(231, 11%, 63%);
+}
+
 #next {
     width: 100px;
     height: 40px;
@@ -93,7 +101,11 @@ body {
     display: flex;
     padding: 10px;
     gap: 5px;
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 5px;
     flex-direction: row;
+    text-align: start;
 }
 
 footer {
