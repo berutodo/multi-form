@@ -1,6 +1,8 @@
 let currentTab = 0;
 showTab(currentTab)
 
+//Need to create the last => Confirmation Page <=
+
 function showTab(n) {
     let steps = document.getElementsByClassName('step')
     let tabs = document.getElementsByClassName("tab");
@@ -26,7 +28,7 @@ function hideTab(n) {
 }
 
 
-function nextStep(x) {
+function nextStep() {
     let tabs = document.getElementsByClassName("tab");
     if (currentTab >= tabs.length - 1) { return }
     hideTab(currentTab)
